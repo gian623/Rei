@@ -1,0 +1,12 @@
+<addon id="plugin.video.redecanais" version="1.0.0" name="Rede Canais" provider-name="Seu Nome">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Assista a filmes, desenhos, sÃ©ries e TV aberta.</summary>
+    <description><![CDATA[Addon Kodi para o site Rede Canais.]]></description>
+    <language>Portuguese</language>
+  </extension>
+</addon>
